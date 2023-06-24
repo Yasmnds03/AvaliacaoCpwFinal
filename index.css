@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to bottom right, #b07bac, #d9d7dd);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#app {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Poppins Bold";
+  color: #6b6bff;
+}
+
+a {
+  font-family: "Poppins Regular";
+  color: #6b6bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
